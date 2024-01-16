@@ -753,7 +753,7 @@ span {
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1200px, 2000px, 2500px) {
     html {
         font-size: 55%;
     }
@@ -771,6 +771,7 @@ span {
         right: -9rem;
     }
 }
+
 
 @media (max-width: 1024px) {
     .header {
@@ -981,6 +982,7 @@ span {
 
 }
 
+
 @media (max-width: 617px) {
     .portfolio .portfolio-container {
         grid-template-columns: 1fr;
@@ -1017,7 +1019,7 @@ span {
         width: 100%;
     }
 }
-@media (max-width: 365px) {
+@media (max-width: 300px, 365px, 390px) {
     .about-img img {
         width: 90vw;
     }
